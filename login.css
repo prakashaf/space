@@ -8,7 +8,6 @@ Body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100%;
 }
 form{
     z-index: 1;
@@ -44,12 +43,6 @@ img{
     width: 150px;
     position: absolute;
     z-index: -1;
-  animation-name: example;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes example {
-    0%   { left:90%; top:0%;}
-    100% { left:0%; top:110%;}
+    top: 0;
+    left: -1;
 }
