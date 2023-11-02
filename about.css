@@ -1,0 +1,26 @@
+*{
+    border: 0;
+    margin: 0%;
+    color: beige;
+    overflow: hidden;
+}
+Body{
+    background-image: url(backgrnd2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+P{
+    text-indent: 50px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: larger;
+    margin-bottom: 0%;
+}

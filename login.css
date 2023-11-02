@@ -2,7 +2,6 @@
     color: beige;
     overflow: hidden;
 }
-
 Body{
     background-image: url(backgrnd2.jpg);
     background-size: cover;
@@ -19,10 +18,10 @@ form{
     gap: 10px;
     text-align: center;
     align-items: center;
-    border: 1px solid rgb(43, 41, 45);
+
     padding: 10px;
     border-radius: 10px;
-    backdrop-filter: blur(1px);
+   
 
 }
 input[type="text"]{
