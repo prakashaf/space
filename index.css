@@ -34,7 +34,6 @@ Body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100%;
 } 
 a{ 
     text-decoration: none; 
