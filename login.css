@@ -1,0 +1,55 @@
+*{
+    color: beige;
+    overflow: hidden;
+}
+
+Body{
+    background-image: url(backgrnd2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+form{
+    z-index: 1;
+    display: flex;
+    margin-top: 15%;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(43, 41, 45);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+
+}
+input[type="text"]{
+    width: 300px;
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background: transparent;
+    border-radius: 20px;
+}
+
+img{
+    width: 150px;
+    position: absolute;
+    z-index: -1;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   { left:90%; top:0%;}
+    100% { left:0%; top:110%;}
+}

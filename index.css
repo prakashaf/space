@@ -1,0 +1,72 @@
+*{
+    border: 0;
+    margin: 0%;
+    color: beige;
+    overflow: hidden;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 19px;
+    align-items: baseline;
+    font-family: cursive;
+    font-size: 20px;
+    filter: blur(5);
+    box-shadow: 10px;
+    
+}
+li:hover{
+    border-bottom: 1px solid white;
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    font-size: x-small;
+    padding-right: 10px;
+    opacity: 19%;
+    top: 10%;
+}
+Body{
+    background-image: url(backgrnd2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+} 
+a{ 
+    text-decoration: none; 
+} 
+img{
+    width: 50vh;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    z-index: -1;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+h2{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    /* border: 2px solid white; */
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+P{
+    padding: 35px;
+    text-align: center;
+    font-family: cursive;
+    text-overflow: clip;
+    font-size: 17px;
+}
+
+@keyframes example {
+    0%   { left:0%; top:100%;}
+    100% { left:100%; top:0%;}
+}
